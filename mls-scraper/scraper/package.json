@@ -1,0 +1,23 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "mlsscraper",
+  "main": "app.js",
+  "repository": "",
+  "author": "anthony palacios",
+  "license": "",
+  "dependencies": {
+    "axios": ">=0.21.1",
+    "@sparticuz/chromium": "^117.0.0",
+    "puppeteer-core": "^21.3.8",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0"
+  }
+}
